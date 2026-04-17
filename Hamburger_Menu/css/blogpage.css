@@ -80,3 +80,40 @@ nav {
 .off-screen-menu li {
     list-style-type: none;
 }
+
+.main_nav {
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.main_nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: row;
+}
+
+.off-screen-menu.active .main_nav {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+.toparea {
+   background-image: url('https://logos-marcas.com/wp-content/uploads/2021/09/Mr-Beast-Emblema.png');
+   background-size: cover;
+   height: 100px;
+   width: 150px;
+   margin-left: 5px;
+}
