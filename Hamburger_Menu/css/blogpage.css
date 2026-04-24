@@ -111,9 +111,52 @@ nav {
     align-items: flex-start;
 }
 .toparea {
-   background-image: url('https://logos-marcas.com/wp-content/uploads/2021/09/Mr-Beast-Emblema.png');
+   background-image: url('"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/08/overwatch-2-winston-banana.jpg"');
    background-size: cover;
    height: 100px;
    width: 150px;
    margin-left: 5px;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.teams-member {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.teams-member div {
+    text-align: center;
+    padding: 10px;
+}
+
+.teams-member img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.teams-member span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.teams-member span:nth-of-type(2) {
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.links a{
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+  
