@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leon Blog Page</title>
     <link rel="stylesheet" href="css/blogpage.css">
 </head>
@@ -21,17 +22,13 @@
 
         <nav>
             <div class="main_nav">
-                <ul style="display:flex; gap:1rem; list-style:none; margin:0; padding:0; align-items:center;">
-                    <img src="./logo.png" width="200">
-                    <li><a href="#about" style="display:block; padding:0.5rem 1rem; text-decoration:none;">About Us</a>
-                    </li>
-                    <li><a href="#careers" style="display:block; padding:0.5rem 1rem; text-decoration:none;">Careers</a>
-                    </li>
-                    <li><a href="#team" style="display:block; padding:0.5rem 1rem; text-decoration:none;">Team</a></li>
-                    <li><a href="#resources"
-                            style="display:block; padding:0.5rem 1rem; text-decoration:none;">Resources</a></li>
-                    <li><a href="#contactus" style="display:block; padding:0.5rem 1rem; text-decoration:none;">Contact
-                            me</a></li>
+                <ul style="display:flex; gap:1rem; list-style:none; margin:0; padding:0; align-items:center; flex-wrap: wrap;">
+                    <li style="margin-right: 1rem;"><img src="./logo.png" width="200" alt="Logo"></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contactus">Contact me</a></li>
                 </ul>
             </div>
             <div class="ham-menu">
@@ -177,8 +174,8 @@
         <p>Ready to bring your vision to life? Whether you have a fully-fleshed-out RFP or just a spark of an idea, we’re
             here to listen and collaborate. Drop us a message below, and a member of our strategy team will be in touch
             within 24 hours.
-        <p>
-        <from>
+        </p>
+        <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br><br>
             <label for="email">Email:</label>
@@ -186,7 +183,7 @@
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
             <input type="submit" value="Submit">
-        </from>
+        </form>
     </section>
     <script src="alljavascript/blogpage.js"></script>
 
