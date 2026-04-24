@@ -126,7 +126,7 @@ header img {
 
 .main_nav a:hover {
     color: #6f86ff;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 4px;
 }
 
@@ -145,7 +145,7 @@ header img {
         flex: 1;
         justify-content: flex-end;
     }
-    
+
     .ham-menu {
         display: none;
     }
@@ -183,7 +183,7 @@ header img {
     top: 75%;
 }
 
-.ham-menu.active span:nth-child(1){
+.ham-menu.active span:nth-child(1) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
 }
@@ -221,11 +221,11 @@ header img {
 }
 
 .toparea {
-   background-image: url('"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/08/overwatch-2-winston-banana.jpg"');
-   background-size: cover;
-   height: 100px;
-   width: 150px;
-   margin-left: 5px;
+    background-image: url('"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/08/overwatch-2-winston-banana.jpg"');
+    background-size: cover;
+    height: 100px;
+    width: 150px;
+    margin-left: 5px;
 }
 
 section a {
@@ -238,7 +238,8 @@ section a:hover {
 }
 
 /* Form Styles */
-from, form {
+from,
+form {
     display: flex;
     flex-direction: column;
     max-width: 600px;
@@ -246,15 +247,18 @@ from, form {
     gap: 1.5rem;
 }
 
-from label, form label {
+from label,
+form label {
     font-weight: bold;
     color: rgb(34, 37, 49);
     margin-bottom: 0.5rem;
     display: block;
 }
 
-from input, form input,
-from textarea, form textarea {
+from input,
+form input,
+from textarea,
+form textarea {
     padding: 0.75rem;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -263,7 +267,8 @@ from textarea, form textarea {
     width: 100%;
 }
 
-from input[type="submit"], form input[type="submit"] {
+from input[type="submit"],
+form input[type="submit"] {
     background-color: rgb(34, 37, 49);
     color: white;
     cursor: pointer;
@@ -271,7 +276,8 @@ from input[type="submit"], form input[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-from input[type="submit"]:hover, form input[type="submit"]:hover {
+from input[type="submit"]:hover,
+form input[type="submit"]:hover {
     background-color: #555;
 }
 
@@ -288,13 +294,13 @@ from input[type="submit"]:hover, form input[type="submit"]:hover {
     padding: 1rem;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .teams-member div:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .teams-member img {
@@ -351,21 +357,21 @@ img {
     section {
         padding: 2rem 1rem;
     }
-    
+
     section h4 {
         font-size: clamp(1rem, 3vw, 1.3rem);
         color: rgb(34, 37, 49);
         margin-bottom: 1rem;
     }
-    
+
     header img {
         max-width: 150px;
     }
-    
+
     nav {
         padding: 1rem 0.5rem;
     }
-    
+
     .ham-menu {
         height: 50px;
         width: 50px;
@@ -381,11 +387,11 @@ img {
     section {
         padding: 2.5rem 2rem;
     }
-    
+
     nav {
         flex-wrap: nowrap;
     }
-    
+
     .teams-member {
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
@@ -400,10 +406,8 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .teams-member {
         grid-template-columns: repeat(4, 1fr);
     }
 }
-  
-  
